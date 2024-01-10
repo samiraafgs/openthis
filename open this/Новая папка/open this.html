@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>Open this</title>
+<style>
+body{
+  background:rgb(255, 203, 228)
+}
+
+#wrapper{ 
+  margin: 0px 450px 0px 350px; /* Заголовок двигается верх-вправо-вниз-влево. */
+  
+
+}
+#this{ 
+  margin: 0px 200px 0px 180px; /* Заголовок двигается верх-вправо-вниз-влево. */
+  
+
+}
+#header{
+position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
+  margin: auto;
+height: 45px; /* Высота шапки */
+  line-height: 45px;
+  background-color: #ffffff; /* Фон шапки */
+   margin-bottom: 0px; /* Нижний отступ шапки от остального контента */
+  border-radius: 100px; /* Закругляются углы блока */
+  box-shadow: rgba(0,0,0,0.5) 0px 3px 5px; /* Тень. Визуально приподнимает блок над оболочкой */
+}
+#var{
+position:relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
+height: 40px; /* Высота шапки */
+  line-height: 35px;
+  background-color: #ffffff; /* Фон шапки */
+   margin-bottom: 0px; /* Нижний отступ шапки от остального контента */
+  border-radius: 100px; /* Закругляются углы блока */
+  box-shadow: rgba(0,0,0,0.5) 0px 3px 5px; 
+
+}
+img{ /* Фоновая картинка в шапке */
+float: left; /* Разрешаем наплывание других элементов на картинку */
+  margin:10px 400px 400px 200px;} /* Размещаем картинку в блоке header. 1-я и 3-я цифры - двигаем вверх-вниз, 2-я и 4-я цифры - двигаем вправо-влево */
+h1{ /* Заголовок сайта */
+  margin:200px 10px 0px 90px; /* Заголовок двигается верх-вправо-вниз-влево. */
+  color:#b88080; /* Цвет заголовка */
+  line-height: 45px;
+
+}
+li{ /* Заголовок сайта */
+  margin:50px 5px 5px 65px; /* Заголовок двигается верх-вправо-вниз-влево. */
+  color:#ffffff; /* Цвет заголовка */
+  line-height: 33px;
+  font-size: 30px;
+  font-style: color rgb(218, 55, 55) ;
+
+}
+/* Сайдбар (колонка справа) */
+
+#sidebar{ /* Блок сайдбара */
+  background-color: #ffffff; /* Фон блока */
+  width: 60px; /* Ширина блока */
+  padding: 20px; /* Отступ текста от краёв */
+  float: center; /* Размещаем блок справа от других элементов, наплывание или обтекание справа). Если делать сайдбар слева, то значение right меняем на left */
+  border-radius: 5px; /* Закругляем углы блока */
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Задаём блоку тень */
+}
+.marcer{ /* Галочки маркеры меню */
+  float: left; /* Размещаем слева от текста */
+  margin: 15px 15px 0 0; /* Двигаются вверх-вправо-вниз-влево */
+}
+
+/* Контент (статья) */
+
+#content{ /* Блок контента */
+  margin-bottom: auto; /* Отступ блока статьи от блока подвала */
+  width: 606px; /* Ширина статьи */
+  padding: 10px; /* Отступ текста от краёв блока */
+  background: #ffffff; /* Фон статьи */
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.left{ /* Картинка в тексте слева */
+  float: left;
+  margin: 30px 7px 7px 7px;
+}
+.right{ /* Картинка в тексте справа */
+  float: right;
+  margin: 100px 100px 100px 100px;
+}
+/* Подвал */
+
+#footer{ /* Блок подвала */
+    text-align: center;
+  height:80px; /* Высота блока подвала */
+  background-color: #ffd7d7; /* Фон блока подвала */
+  margin-bottom: 100px; /* Отступ снизу */
+  border-radius: 5px; /* Закруглённые углы */
+  box-shadow: rgba(0,0,0,0.5) 100px 10px 3px; /* Тень блока */
+}
+.clear{ /* Запрет наплывания. Устанавливается для того, чтобы блок контента, при заполнении текстом и изображениями не наплывал на подвал */
+  clear: both;
+}
+  .fon{ /* Номер телефона */
+  float:left; /* Разрешаем другим элементам обтекать абзац справа */
+  margin:200px 100px 0 20px;
+}
+.fax{ /* Номер факса */
+  float:left;
+  margin:20px 0 0 60px;
+}
+.mail{ /* Адрес E-mail */
+  float:left;
+ margin:20px 0 0 60px;
+}
+</style>
+</head>
+<body>
+  <div id="wrapper"> 
+    <div id="header">
+    
+      <h1>Do you agree to be with me forever?</h1>
+     
+    </div>
+    <div id="this"> 
+    <div id="var">
+<li><a href="http://127.0.0.1:5500/yayy.html">sureee..</a></li>
+</div>
+</div>
+<div>
+  <img src="tkthao219-bubududu.gif" alt width="300" height="270";> 
+</div>
+
+    
+</body>
+</html>
